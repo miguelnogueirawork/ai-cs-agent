@@ -1,0 +1,10 @@
+{
+  "customer_id": 1024,
+  "company_name": "Acme Corp",
+  "plan": "Enterprise",
+  "mrr": 4999,
+  "open_tickets": 4,
+  "last_ticket_subject": "API integration failing on export",
+  "last_ticket_days_ago": 2,
+  "sentiment": "Frustrated"
+}
