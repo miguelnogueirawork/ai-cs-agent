@@ -2,7 +2,8 @@ import json
 from groq import Groq
 
 # 1. Configurar o cliente da Groq
-client = Groq(api_key="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")
+import os
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # 2. Carregar os dados do JSON
 with open('customer_data.json', 'r') as file:
